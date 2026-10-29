@@ -1,0 +1,2 @@
+-r requirements.txt
+imageio-ffmpeg>=0.4   # provides an ffmpeg binary for m4a / aac / mp4 decoding

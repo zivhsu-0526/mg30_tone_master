@@ -1,0 +1,39 @@
+# ---- Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.env
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# ---- 本工具的輸出報告 (跑一次就會在音檔旁邊產生)
+*_mg30.md
+*_mg30.json
+
+# ---- 音檔：使用者自己的錄音、受版權保護的目標音色都不應該進版本庫
+# test_audio/ 可用 `python make_test_audio.py` 重新產生，不需要提交
+test_audio/
+*.wav
+*.flac
+*.mp3
+*.ogg
+*.m4a
+*.aac
+*.mp4
+*.aif
+*.aiff
+
+# ---- 編輯器 / 作業系統
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---- Claude Code 本機設定
+.claude/settings.local.json
